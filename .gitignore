@@ -205,3 +205,84 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+
+# SIVIA specific
+sivia/knowledge_sivia.json
+sivia/*.log
+sivia/config.ini
+sivia/__pycache__/
+sivia/.env
+.env
+
+# SIVIA Configuration Files
+sivia/settings.json
+sivia/credentials/*.json
+sivia/models/*.bin
+sivia/cache/*
+sivia/temp/*
+!sivia/cache/.gitkeep
+!sivia/temp/.gitkeep
+
+# SIVIA Runtime Files
+*.session
+*.session-journal
+sivia_history.txt
+conversations/*.txt
+
+# SIVIA Logs & Debug
+debug.log
+error.log
+sivia_debug/*
+logs/*
+!logs/.gitkeep
+
+# Google API credentials
+google_credentials.json
+*-credentials.json
+api_key.txt
+
+# Development tools
+.pytest_cache/
+coverage/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node modules (si usas npm/node)
+node_modules/
